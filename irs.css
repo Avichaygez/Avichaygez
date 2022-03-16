@@ -1,0 +1,22 @@
+html, body{
+    background-color: whitesmoke;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    height: 150%;
+    width: 50%;
+}
+h1{
+    background-color: blue;
+    text-decoration: underline;
+}
+.block{
+    background-color: yellowgreen;
+    margin-top: -22px;
+}
+.block  div{
+    margin: 20px;
+    padding: 10px;
+}#no{
+    margin-left: 3px;
+}

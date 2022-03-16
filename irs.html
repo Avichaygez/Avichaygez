@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="irs.css">
+    <title>irs</title>
+</head>
+
+<body>
+    <h1>IRS sorting</h1>
+    <div class="block">
+        <div>
+            <label for="salary">enter your salary here:</label>
+            <input type="number" id="salary">
+        </div>
+
+
+        <div>
+            <label for="">enter your kids number here:</label>
+            <input type="number" id="kids">
+        </div>
+      
+        <div>
+            <label for="">married ? </label> <br>
+            <input type="radio" id="yes" name="yn" value="yes" onclick=marrige()> 
+            <label for="yes">yes</label>  <br>
+            <input type="radio" id="no" name="yn" >
+             <label for="no">no</label>  <br>
+        </div>
+        <button ondblclick="sort1()">sort here</button>
+        <div id="result">
+
+
+
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+    <script src="irs.js"></script>
+</body>
+
+</html>
